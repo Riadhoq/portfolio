@@ -1,0 +1,102 @@
+/*documents*/
+body {
+  position: relative;
+  font-size: 18px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+/*Classes*/
+
+/*ids*/
+#home {
+  height: 800px;
+  max-height: 850px;
+  padding-top: 80px;
+  color: #444;
+}
+#projects {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #30415D;
+  color: #ddd;
+}
+
+#about-me {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #eee;
+  background-color: #8EAEBD;
+}
+#contact-me {
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  height: 800px;
+  color: #444;
+  background-color: #D9D9D9;
+}
+
+@keyframes example {
+  0% {
+    background-image: URL(
+      "http://files.vladstudio.com/joy/my_way/wall/vladstudio_my_way_1600x1200_signed.jpg"
+    );
+  }
+  50% {
+    background-image: URL(
+      "http://files.vladstudio.com/joy/where_tahrs_live/wall/vladstudio_where_tahrs_live_1600x1200_signed.jpg"
+    );
+  }
+  100% {
+    background-image: URL(
+      "http://files.vladstudio.com/joy/white_crow/wall/vladstudio_white_crow_1600x1200_signed.jpg"
+    );
+  }
+}
+
+/* The element to apply the animation to */
+#home {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-max-width: 100%;
+  background-height: auto;
+  background-size: cover;
+
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes line {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+hr {
+  animation-name: line;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+footer {
+  color: #ccc;
+  text-align: center;
+  padding: 60px;
+  background-color: #004622;
+}
