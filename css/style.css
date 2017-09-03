@@ -24,7 +24,7 @@ img {
 #home {
   height: 1000px;
   max-height: 100vh;
-  padding-top: 80px;
+  padding-top: 70px;
   color: #444;
   
 }
@@ -38,7 +38,7 @@ body{
   background-size: cover;
 
   animation-name: example;
-  animation-duration: 5s;
+  animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
@@ -165,8 +165,11 @@ footer {
 
 }
 */
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 640px) {
     body {
-        background-attachment: scroll;
+      background-attachment: scroll;
+      background-max-width: 100%;
+      background-height: auto;
+      background-size: cover;
     }
 }
