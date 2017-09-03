@@ -4,18 +4,22 @@
   <meta charset="UTF-8">
   <title>Riad Hoque Portfolio</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 
   
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
 
   <link rel="stylesheet" href="css/style.css">
 
@@ -23,34 +27,46 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-inverse navbar-fixed-top dark">
   <div class="container-fluid">
     <div class="navbar-header">
+      <a class="navbar-text" href="#home" id="logo">@riadhoq</a>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
+          <span class="icon-bar"></span>                    
       </button>
-      <h1><a class="navbar-brand" href="#">Riad Hoque</a></h1>
     </div>
     <div>
-      <div class="collapse navbar-collapse navbar-right navbar-text" id="myNavbar">
-        <ul class="nav navbar-nav nav-link">
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+
+        <ul class="nav navbar-nav navbar-right navbar-text">
           <li><a href="#home"><span class="glyphicon glyphicon-home"></span> Home</a></li>
           <li><a href="#projects"><span class ="glyphicon glyphicon-briefcase"></span> Projects</a></li>
           <li><a href="#about-me"><span class="glyphicon glyphicon-info-sign"></span> About Me</a></li>
           <li><a href="#contact-me"><span class="glyphicon glyphicon-earphone"></span> Contact Me</a></li>
         </ul>
+      
       </div>
     </div>
   </div>
 </nav>
 
-<div id="home" class="container-fluid">
-  <h1 style="color: #fff; font-size: 72px; font-min-size: 72px; font-max-size:78px;">WELCOME<hr width =70%></h1>
-  <p>
 
-  </p>
+<div id="home" class="container-fluid">
+  <h1>Riad Hoque</h1>
+  <h2></h2>
+  <a href="#home" class="hidden" title="Top" id="to-top"><i class="fa fa-arrow-circle-o-up fa-3x" aria-hidden="true"></i></a>
+
+  <div class="text-center" id="front-social">
+    <a href="https://www.github.com/Riadhoq" target="_blank" style="color:white"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/coolhotriad" target="_blank" style="color:white"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+    <a href="https://www.twitter.com/hoqriad" target="_blank" style="color:white"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+    <a href="https://www.freecodecamp.org/riadhoq" target="_blank" style="color:white"><i class="fa fa-free-code-camp fa-3x"></i></a>
+    <a href="https://www.linkedin.com/in/riadul-hoque-b28781a4" target="_blank" style="color:white"><i class="fa fa-linkedin fa-3x"></i></a>
+  </div>
+
 </div>
 
 <div id="projects" class="container-fluid">
@@ -60,14 +76,14 @@
     <h3>Websites And Apps</h3>
     <div class="col-sm-4">
       <a href="https://riadhoq.github.io/portfolio/" target="_blank" style="color: #DDD"><img src="https://farm5.staticflickr.com/4378/36172614070_35db908362.jpg" alt="My Picture"><strong>My Portfolio Website<br></strong></a>
+
     </div>
     <div class="col-sm-4">
-      <a href="https://riadhoq.github.io/tetris/" title="Tetris Wallpaper" style="color: #DDD" target="_blank"><img src="http://dotageeks.com/wp-content/uploads/2015/10/Awesome-Tetris-Wallpaper-01.png" alt="Tetris Wallpaper"><strong>Simple Tetris Game App for PC</strong></a>
+      <a href="https://riadhoq.github.io/tetris/" title="Tetris Wallpaper" style="color: #DDD" target="_blank"><img src="https://assets.vg247.com/current//2015/01/tetris.png" alt="Tetris Wallpaper"><strong>Simple Tetris Game App for PC</strong></a>
     </div>
     <div class="col-sm-4">
       <a href="https://riadhoq.github.io/random-quote/" title="My Portfolio" target="_blank" style="color: #DDD"><img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1403489.VzWQNW.d0f8f417-32e4-4d40-9e1d-d713ccfa6a1a.png" alt="Random Quote Generator Screenshot"><strong>Random Quote Generator App</strong></a>
-    </div>
-  </div>
+
 
   <div class="row">
 
@@ -78,10 +94,9 @@
       <a href="https://riadhoq.github.io/local-weather-app/" title="My Portfolio" target="_blank" style="color: #DDD"><img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1403489.zdEXbp.9ad7448f-c6f7-42c1-8acb-8498aa765bed.png" alt="Local Weather App Screenshot"><strong>Local Weather App</strong></a>
     </div>
     <div class="col-sm-4">
-      <a href="https://riadhoq.github.io/chester-tribute/" target="_blank" style="color: #DDD"><img src="http://images.vogue.it/gallery/17528/Big/da03175d-80d7-4d42-802e-4f3b59c32090.jpg" alt="Chester Bennington"><strong>Chester Bennington Tribute Page<br></strong></a>
+      <a href="https://riadhoq.github.io/chester-tribute/" target="_blank" style="color: #DDD"><img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1403489.gxLqwZ.0297428c-d12b-4500-b7e6-a55eb02af606.png" alt="Chester Bennington"><strong>Chester Bennington Tribute Page<br></strong></a>
     </div>
   </div>
-
 
   <div class="row">
     <h3>Photography</h3>
@@ -159,8 +174,8 @@
 <footer>Done by Riadul Hoque &copy2017
   <hr width=7 0%>
 </footer>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
 
     <script src="js/index.js"></script>
 
