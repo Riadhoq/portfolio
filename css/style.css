@@ -24,7 +24,7 @@ img {
 #home {
   height: 1000px;
   max-height: 100vh;
-  padding-top: 60px;
+  padding-top: 80px;
   color: #444;
   
 }
@@ -173,4 +173,11 @@ footer {
       background-height: auto;
       background-size: cover;
     }
+  #home {
+  height: 1000px;
+  max-height: 100vh;
+  padding-top: 40px;
+  color: #444;
+  
+}
 }
