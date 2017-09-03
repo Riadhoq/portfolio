@@ -1,7 +1,6 @@
 $(document).ready(function() {
     
-var small = function(){
-    
+  function resize(){
     if ($(window).width() < 640) {
       $("#front-social i").removeClass('fa-3x');
       $("#front-social i").addClass('fa-2x');
@@ -9,8 +8,10 @@ var small = function(){
       $("#front-social i").removeClass('fa-2x');
       $("#front-social i").addClass('fa-3x');  
     }
-
-   
+  }
+  
+  window.onload = resize;    
+  window.onresize = resize;
   
   window.onscroll = function (e) {  
 $("#to-top").removeClass("hidden"); 
