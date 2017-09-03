@@ -1,6 +1,6 @@
 $(document).ready(function() {
     
-  window.onresize = function(e){
+var small = function(){
     
     if ($(window).width() < 640) {
       $("#front-social i").removeClass('fa-3x');
@@ -9,7 +9,7 @@ $(document).ready(function() {
       $("#front-social i").removeClass('fa-2x');
       $("#front-social i").addClass('fa-3x');  
     }
-  }
+
    
   
   window.onscroll = function (e) {  
