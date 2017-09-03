@@ -24,7 +24,7 @@ img {
 #home {
   height: 1000px;
   max-height: 100vh;
-  padding-top: 70px;
+  padding-top: 60px;
   color: #444;
   
 }
@@ -168,6 +168,7 @@ footer {
 @media only screen and (max-device-width: 640px) {
     body {
       background-attachment: scroll;
+      background-position: center;
       background-max-width: 100%;
       background-height: auto;
       background-size: cover;
