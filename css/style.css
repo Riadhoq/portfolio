@@ -21,6 +21,10 @@ img {
 /*Classes*/
 
 /*ids*/
+#img1, #img2, #img3{
+  border: 10px solid white;
+}
+
 #home {
   height: 1000px;
   max-height: 100vh;
