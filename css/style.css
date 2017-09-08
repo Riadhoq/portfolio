@@ -26,23 +26,28 @@ img {
   max-height: 100vh;
   padding-top: 80px;
   color: #444;
+  background-image: URL(     "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?dpr=1&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 body{
-  background-color: black;
+  background-color: white;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-max-width: 100%;
   background-height: auto;
   background-size: cover;
-
+}/*
   animation-name: example;
-  animation-duration: 15s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
-}
+}*/
 #projects {
   padding-top: 80px;
   background-attachment: fixed;
@@ -50,8 +55,15 @@ body{
   padding-left: 80px;
   padding-right: 80px;
   background-color: #30415D;
-  color: #ddd;
+  color: #333;
   background-color: rgba(20,70,40,0.5);
+  background-attachment: fixed;
+  background-image: URL(
+      "https://farm8.staticflickr.com/7230/26416031573_9c9084f072_k.jpg"
+    );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #about-me {
@@ -59,18 +71,25 @@ body{
   padding-bottom: 80px;
   padding-left: 80px;
   padding-right: 80px;
-  color: #eee;
-  background-color: #8EAEBD;
-  background-color: rgba(70,40,20,0.7);
+  color: #EFEFEF;
+  background-color: rgba(140,140,140,1.0);
+  background-image: URL("https://images.unsplash.com/photo-1493946947703-a0e68b050bee?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 #contact-me {
   padding-top: 80px;
   padding-left: 80px;
   padding-right: 80px;
   height: 800px;
-  color: #ddd;
+  color: #444;
   background-color: #D9D9D9;
-  background-color: rgba(20,40,70,0.7);
+
+ 
+  
 }
 
 @keyframes example {
@@ -85,7 +104,7 @@ body{
   }
   100% {
     background-image: URL(
-      "https://farm8.staticflickr.com/7230/26416031573_9c9084f072_k.jpg"
+      "https://images.unsplash.com/photo-1501676491272-7bbd3e71f7e1?dpr=1&auto=format&fit=crop&w=1500&h=1039&q=80&cs=tinysrgb&crop="
     );
   }
 }
@@ -114,7 +133,7 @@ hr {
 footer {
   color: #ccc;
   text-align: center;
-  padding: 60px;
+  padding: 20px;
   background-color: #26AC5F;
   background-color: rgba(0,0,0,0.93);
 }
